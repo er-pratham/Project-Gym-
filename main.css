@@ -86,6 +86,7 @@ header{
     border-radius: 6px;
     padding: 80px 100px;
     height: 300px;
+    
 }
 .input-form
 {
@@ -95,6 +96,7 @@ header{
     text-align: center;
     border: 2px solid transparent;
     border-radius: 8px;
+    opacity: 0.7;
 }
 .container h1{
     text-align: center;
@@ -111,4 +113,8 @@ header{
     background-color: black;
     color: aliceblue;
 
+}
+.input-form:hover , .input-form:active
+{
+    opacity: 1;
 }
